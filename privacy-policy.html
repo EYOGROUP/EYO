@@ -6,86 +6,556 @@
   <title>EYO Privacy Policy</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f8fafc;
+      color: #111827;
+    }
+
+    .container {
       max-width: 900px;
       margin: 0 auto;
-      padding: 48px 20px;
-      line-height: 1.6;
-      color: #172026;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      border: 1px solid #e5e7eb;
     }
 
     h1 {
-      font-size: 36px;
+      margin-top: 0;
+      font-size: 32px;
+      color: #0f172a;
     }
 
     h2 {
       margin-top: 32px;
+      color: #1f2937;
+      font-size: 22px;
+    }
+
+    h3 {
+      margin-top: 24px;
+      color: #374151;
+      font-size: 18px;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: #374151;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .muted {
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .important {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin: 20px 0;
     }
 
     a {
-      color: #0b6bcb;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 13px;
+      color: #6b7280;
+      text-align: center;
     }
   </style>
 </head>
+
 <body>
-  <h1>EYO Privacy Policy</h1>
-  <p><strong>Last updated:</strong> 2026-05-09</p>
+  <div class="container">
+    <div class="card">
+      <h1>EYO Privacy Policy</h1>
 
-  <h2>1. Overview</h2>
-  <p>EYO is a time management app for independent professionals. It helps users create projects, track time, add manual entries, review reports, and export time data when needed.</p>
+      <p class="muted">
+        Last updated: May 2026
+      </p>
 
-  <h2>2. Local-First Data Storage</h2>
-  <p>EYO stores app data locally on the user's device by default. This may include projects, client names entered by the user, hourly rates, time entries, start and end times, notes, billable and non-billable status, reports generated from local entries, app settings, and Pro status.</p>
-  <p>By default, this data is not uploaded to an EYO server.</p>
+      <p>
+        This Privacy Policy explains how EYO (“EYO”, “the App”, “we”, “us”, or “our”) handles
+        information when you use the EYO mobile application, related features, and legal/support
+        pages.
+      </p>
 
-  <h2>3. No Account Required</h2>
-  <p>EYO can be used without creating an account. The current version does not require user registration, login credentials, email-based account creation, or cloud profile creation.</p>
+      <p>
+        EYO is designed as a local-first productivity and lifestyle app. Most user-generated content
+        is stored locally on your device and is not uploaded to an EYO cloud account by default.
+      </p>
 
-  <h2>4. Data Collection</h2>
-  <p>EYO stores the time tracking data entered by the user locally on the device by default. Data entered into the app remains stored locally on the device unless the user chooses to export or share it.</p>
-  <p>EYO may also collect limited technical and usage information through third-party services such as Firebase Analytics and Firebase Crashlytics. This information is used to understand how the app is used, monitor app stability, diagnose crashes, fix bugs, and improve performance.</p>
+      <div class="important">
+        <p>
+          In the current version, EYO does not provide general cloud synchronization for
+          user-generated app content unless a specific feature clearly states otherwise.
+        </p>
+      </div>
 
-  <h2>5. Analytics and Crash Diagnostics</h2>
-  <p>EYO may use Firebase Analytics and Firebase Crashlytics, services provided by Google Firebase, to monitor app performance, understand general usage patterns, and identify crashes or technical issues.</p>
-  <p>These services may collect technical information such as device type, operating system version, app version, crash logs, diagnostics, performance data, session information, and general usage events.</p>
-  <p>This information is used only to improve the app, maintain reliability, and understand which features are useful to users.</p>
-  <p>On Android, Firebase Analytics may use the advertising identifier for analytics and attribution purposes where available. EYO does not use the advertising identifier to display ads, sell user data, or share data with advertising partners.</p>
+      <h2>1. Overview</h2>
 
-  <h2>6. Data Sharing</h2>
-  <p>EYO does not sell user data.</p>
-  <p>EYO does not use third-party advertising networks and does not share user data for advertising purposes.</p>
-  <p>EYO may share limited technical analytics and crash diagnostic data with service providers such as Google Firebase for app stability, analytics, and performance monitoring.</p>
-  <p>The user may choose to export or share data manually, for example by creating a CSV or PDF export and using the device share sheet.</p>
+      <p>
+        EYO is a multi-mode productivity and lifestyle application designed to help users organize
+        time, routines, tasks, focus sessions, workouts, home and kitchen activities, timers,
+        reminders, reports, and personal productivity workflows.
+      </p>
 
-  <h2>7. CSV and PDF Export</h2>
-  <p>EYO may allow users to export time tracking data as CSV or PDF. Exports may include project names, client names entered by the user, time entry dates, start and end times, durations, notes, billable status, hourly rates, calculated values, summaries, and report periods. Export files are only created when the user chooses to export or share them.</p>
+      <p>
+        Depending on the selected mode and app version, EYO may include:
+      </p>
 
-  <h2>8. Pro Access and In-App Purchases</h2>
-  <p>Some EYO features may be limited to Pro users, such as monthly reports, CSV export, PDF export, or unlimited projects. Pro access may be provided through official in-app purchases or subscriptions offered by the app stores, such as Google Play or the Apple App Store.</p>
-  <p>Payment, subscription management, cancellations, and refunds are handled by the relevant app store provider. EYO does not store full payment card details.</p>
-  <p>EYO may store purchase status locally on the device and may use app store purchase information to determine whether Pro features should be available.</p>
+      <ul>
+        <li>Work and freelance time tracking;</li>
+        <li>Projects, time entries, reports, exports, and productivity summaries;</li>
+        <li>Study focus sessions, Pomodoro timers, subjects, study statistics, and learning routines;</li>
+        <li>Fitness workouts, rest timers, workout templates, warm-ups, progress tracking, and smart coach suggestions;</li>
+        <li>Home and kitchen tasks, shopping lists, pantry tracking, expiry reminders, recipes, meal planning, and kitchen timers;</li>
+        <li>Notifications, timer alerts, reminders, alarm sounds, and custom sound settings;</li>
+        <li>Free and paid Pro features.</li>
+      </ul>
 
-  <h2>9. Cloud Sync and Backup</h2>
-  <p>The current version does not include cloud sync by default. The current version may not include automatic backup or restore features. Users are responsible for keeping any exported files safe.</p>
+      <h2>2. Local-First Data Storage</h2>
 
-  <h2>10. Device Permissions</h2>
-  <p>EYO may use standard device features when required by app functionality, such as sharing exported files through the operating system share sheet.</p>
-  <p>EYO may request notification permission to show timer-related notifications, such as an indication that a timer is running or timer-related reminders. Users can enable or disable notifications in their device settings.</p>
-  <p>EYO does not request unnecessary permissions for core time tracking functionality.</p>
+      <p>
+        Most user-generated data in EYO is stored locally on your device. Depending on the features
+        you use, this may include:
+      </p>
 
-  <h2>11. Data Deletion</h2>
-  <p>Because EYO stores time tracking data locally by default, users can delete app data by deleting entries, projects where supported, or removing the app and its local data from the device.</p>
-  <p>Analytics and crash diagnostic data collected through Firebase are handled according to Google Firebase's data processing and retention practices.</p>
+      <ul>
+        <li>Projects, client names entered by the user, hourly rates, and time entries;</li>
+        <li>Start and end times, durations, notes, billable and non-billable status;</li>
+        <li>Reports generated from local entries;</li>
+        <li>Study subjects, focus sessions, Pomodoro settings, study goals, and study statistics;</li>
+        <li>Fitness workouts, exercises, sets, repetitions, weights, rest timers, templates, warm-ups, and progress data;</li>
+        <li>Home and kitchen tasks, shopping lists, pantry items, expiry dates, recipes, meal plans, and kitchen timers;</li>
+        <li>Notification settings, alarm sound settings, imported custom sounds, and app preferences;</li>
+        <li>Selected app mode, theme, language, and local settings;</li>
+        <li>Local Pro status or purchase-related state used to unlock app features.</li>
+      </ul>
 
-  <h2>12. Children</h2>
-  <p>EYO is not designed for children and is intended for productivity and professional use.</p>
+      <p>
+        By default, this user-generated content is not uploaded to an EYO server.
+      </p>
 
-  <h2>13. Changes to This Policy</h2>
-  <p>This Privacy Policy may be updated as EYO evolves. Changes may be required when new features are added, such as cloud sync, account creation, analytics, crash reporting, or additional subscription options.</p>
+      <h2>3. No Account Required</h2>
 
-  <h2>14. Contact</h2>
-  <p>For support, feedback, or privacy-related questions, contact: <a href="mailto:eyo.app.support@gmail.com">eyo.app.support@gmail.com</a></p>
+      <p>
+        EYO can currently be used without creating a user account. The current version does not
+        require email-based registration, login credentials, or a cloud user profile for normal app
+        usage.
+      </p>
 
-  <p><a href="index.html">Back to home</a></p>
+      <p>
+        If account-based or cloud synchronization features are introduced in the future, this Privacy
+        Policy may be updated accordingly.
+      </p>
+
+      <h2>4. Data We May Collect</h2>
+
+      <p>
+        EYO may process different categories of information depending on how you use the App:
+      </p>
+
+      <h3>4.1 Data You Enter Into the App</h3>
+
+      <p>
+        You may enter information such as projects, time entries, notes, study subjects, focus
+        sessions, workouts, exercises, recipes, shopping items, pantry items, expiry dates, timers,
+        goals, preferences, and other app content.
+      </p>
+
+      <p>
+        This information is currently stored primarily locally on your device.
+      </p>
+
+      <h3>4.2 App Settings and Preferences</h3>
+
+      <p>
+        EYO may store settings such as selected language, theme, selected app mode, timer settings,
+        sound preferences, notification preferences, Pro-related settings, and other configuration
+        data.
+      </p>
+
+      <h3>4.3 Imported Custom Sounds</h3>
+
+      <p>
+        If you import custom alarm sounds, such as MP3 or WAV files, these files are intended to be
+        stored locally on your device and used for in-app alarm or timer functionality.
+      </p>
+
+      <h3>4.4 Analytics Data</h3>
+
+      <p>
+        EYO may use Firebase Analytics, a service provided by Google Firebase, to understand general
+        app usage and improve the App.
+      </p>
+
+      <p>
+        Firebase Analytics may collect information such as app interactions, feature usage, app
+        version, device type, operating system version, approximate region, session information,
+        and other technical or usage events.
+      </p>
+
+      <p>
+        This information is used to understand how the App is used, improve usability, improve
+        performance, and prioritize future development.
+      </p>
+
+      <p>
+        EYO does not use Firebase Analytics to sell user data or display third-party advertising
+        inside the App.
+      </p>
+
+      <h3>4.5 Crash and Diagnostic Data</h3>
+
+      <p>
+        If crash reporting or diagnostic tools are enabled in a current or future version, technical
+        crash or diagnostic data may be processed to identify bugs, improve stability, and maintain
+        reliability.
+      </p>
+
+      <p>
+        If such tools are not enabled in a specific app version, this section may not apply to that
+        version.
+      </p>
+
+      <h2>5. Firebase Analytics</h2>
+
+      <p>
+        EYO may use Firebase Analytics to collect limited technical and usage information for app
+        improvement purposes.
+      </p>
+
+      <p>
+        Firebase Analytics may process data such as:
+      </p>
+
+      <ul>
+        <li>App launches and session information;</li>
+        <li>General feature usage events;</li>
+        <li>Device type and operating system version;</li>
+        <li>App version and platform;</li>
+        <li>Approximate location or region derived from technical data;</li>
+        <li>Interaction events used to understand app performance and usage.</li>
+      </ul>
+
+      <p>
+        EYO uses this information to improve the App, understand which features are useful, identify
+        usability issues, and support product development.
+      </p>
+
+      <p>
+        On Android, Firebase Analytics may use device identifiers or advertising identifiers where
+        available and permitted by the platform for analytics and attribution purposes. EYO does not
+        use this information to display third-party ads or sell user data.
+      </p>
+
+      <h2>6. Supabase and Internal Administration</h2>
+
+      <p>
+        EYO may use Supabase for limited internal administration or app-management functionality.
+      </p>
+
+      <p>
+        Supabase is not currently used as a general cloud database for storing all user-generated
+        content created inside the App.
+      </p>
+
+      <p>
+        User-generated app content such as projects, time entries, study sessions, fitness data,
+        home and kitchen tasks, recipes, shopping lists, pantry items, and custom sounds is currently
+        intended to remain stored locally on the user’s device unless a specific feature clearly
+        states otherwise.
+      </p>
+
+      <h2>7. Pro Access and In-App Purchases</h2>
+
+      <p>
+        Some EYO features may be limited to Pro users. EYO Pro may unlock features across multiple
+        modes, including Work, Study, Fitness, and Home & Kitchen.
+      </p>
+
+      <p>
+        Pro access may be provided through official in-app purchases or subscriptions offered by
+        Apple App Store or Google Play.
+      </p>
+
+      <p>
+        Payment processing, subscription management, cancellations, and refunds are handled by the
+        relevant app store provider. EYO does not store full payment card details.
+      </p>
+
+      <p>
+        EYO may store purchase status locally on the device and may use app store purchase
+        information to determine whether Pro features should be available.
+      </p>
+
+      <h2>8. Notifications, Reminders, and Timer Alerts</h2>
+
+      <p>
+        EYO may request notification permission to show timer-related notifications, reminders,
+        focus alerts, break alerts, fitness rest alerts, home and kitchen timer alerts, task
+        reminders, expiry reminders, or other local alerts.
+      </p>
+
+      <p>
+        Notifications are intended to be generated locally or through the device’s notification
+        system, depending on the feature and platform.
+      </p>
+
+      <p>
+        You can enable or disable notifications through the App settings or your device settings.
+      </p>
+
+      <p>
+        Notification delivery may depend on device permissions, operating system behavior, battery
+        optimization, focus mode, silent mode, app state, and platform restrictions.
+      </p>
+
+      <h2>9. CSV, PDF, Reports, and Exports</h2>
+
+      <p>
+        EYO may allow users to export data as CSV, PDF, or other report formats.
+      </p>
+
+      <p>
+        Exports may include user-entered or locally stored data, such as project names, client names,
+        time entry dates, start and end times, durations, notes, billable status, hourly rates,
+        calculated values, summaries, study information, fitness information, or other report data,
+        depending on the feature.
+      </p>
+
+      <p>
+        Export files are created only when the user chooses to generate, export, save, or share them.
+      </p>
+
+      <p>
+        Once you export or share a file outside EYO, that file may be handled by other apps,
+        operating system services, cloud providers, email providers, or recipients selected by you.
+      </p>
+
+      <h2>10. Data Sharing</h2>
+
+      <p>
+        EYO does not sell user data.
+      </p>
+
+      <p>
+        EYO does not use third-party advertising networks and does not share user-generated app data
+        for third-party advertising purposes.
+      </p>
+
+      <p>
+        EYO may share limited technical, analytics, purchase, or operational data with service
+        providers where necessary to provide, maintain, improve, or analyze the App.
+      </p>
+
+      <p>
+        Service providers may include:
+      </p>
+
+      <ul>
+        <li>Google Firebase for analytics and app usage measurement;</li>
+        <li>Apple App Store and Google Play for in-app purchases and subscriptions;</li>
+        <li>Supabase for limited internal administration or app-management functionality;</li>
+        <li>Operating system services used for sharing, notifications, storage, or app functionality.</li>
+      </ul>
+
+      <p>
+        The user may choose to manually export or share data, for example by creating a CSV or PDF
+        export, sharing a report, sending a file, or using the device share sheet.
+      </p>
+
+      <h2>11. Cloud Sync and Backup</h2>
+
+      <p>
+        The current version does not include general cloud sync by default.
+      </p>
+
+      <p>
+        The current version may not include automatic backup or restore features for all user data.
+        Users are responsible for keeping any exported files or important data safe.
+      </p>
+
+      <p>
+        Device-level backup systems, such as iCloud backup or Android backup, may affect app data
+        depending on platform settings and operating system behavior.
+      </p>
+
+      <h2>12. Data Deletion</h2>
+
+      <p>
+        Because EYO stores most user-generated data locally by default, users can delete app data by
+        deleting entries, projects, sessions, workouts, tasks, recipes, pantry items, settings, or
+        other content where supported by the App.
+      </p>
+
+      <p>
+        Users may also delete local app data by removing the App from the device, subject to the
+        operating system’s storage and backup behavior.
+      </p>
+
+      <p>
+        Analytics data processed through Firebase is handled according to Google Firebase’s data
+        processing and retention practices.
+      </p>
+
+      <p>
+        If you contact us for privacy-related questions, we may ask for information necessary to
+        identify and handle your request.
+      </p>
+
+      <h2>13. Data Retention</h2>
+
+      <p>
+        User-generated data stored locally remains on your device until you delete it, delete the
+        App, reset the device, or otherwise remove the data through device or app functionality.
+      </p>
+
+      <p>
+        Analytics data may be retained by Firebase or related service providers according to their
+        own retention settings and policies.
+      </p>
+
+      <p>
+        Support emails or privacy-related requests may be retained for as long as necessary to
+        respond to your request, maintain records, prevent abuse, or comply with legal obligations.
+      </p>
+
+      <h2>14. Children</h2>
+
+      <p>
+        EYO is not designed for children and is intended for productivity, study, fitness, and
+        personal organization use.
+      </p>
+
+      <p>
+        EYO is not directed to children under the age required by applicable law for digital services
+        consent. If you believe that a child has provided personal data through EYO, please contact
+        us.
+      </p>
+
+      <h2>15. International Data Transfers</h2>
+
+      <p>
+        Service providers such as Google Firebase, Apple, Google Play, or Supabase may process data
+        in countries outside your country of residence.
+      </p>
+
+      <p>
+        Where applicable, such processing is subject to the service providers’ own data protection
+        terms, safeguards, and policies.
+      </p>
+
+      <h2>16. Your Choices and Rights</h2>
+
+      <p>
+        Depending on your location, you may have rights regarding your personal data, such as the
+        right to access, correct, delete, restrict, or object to certain processing.
+      </p>
+
+      <p>
+        Because most user-generated app data is stored locally on your device, you can manage or
+        delete much of this data directly in the App or by deleting the App from your device.
+      </p>
+
+      <p>
+        You can manage notification permissions through your device settings.
+      </p>
+
+      <p>
+        You can manage subscriptions through Apple App Store or Google Play subscription settings.
+      </p>
+
+      <p>
+        For privacy-related requests, contact us using the email address listed below.
+      </p>
+
+      <h2>17. Security</h2>
+
+      <p>
+        We use reasonable technical and organizational measures designed to protect information
+        processed by EYO.
+      </p>
+
+      <p>
+        However, no method of storage, transmission, or processing is completely secure. You are
+        responsible for protecting access to your device, operating system account, app store
+        account, exported files, and backups.
+      </p>
+
+      <h2>18. Third-Party Links and Services</h2>
+
+      <p>
+        EYO may contain links to external pages, such as the Privacy Policy, Terms of Use, Support
+        page, or app store pages.
+      </p>
+
+      <p>
+        Third-party services are governed by their own privacy policies and terms. We are not
+        responsible for the privacy practices of third-party services.
+      </p>
+
+      <h2>19. Changes to This Privacy Policy</h2>
+
+      <p>
+        This Privacy Policy may be updated as EYO evolves. Changes may be required when new features
+        are added, such as account creation, cloud sync, new analytics tools, new integrations,
+        additional subscription options, or new app modes.
+      </p>
+
+      <p>
+        When we update this Privacy Policy, we will update the “Last updated” date above. Continued
+        use of EYO after changes means that you accept the updated Privacy Policy.
+      </p>
+
+      <h2>20. Contact</h2>
+
+      <p>
+        For support, feedback, or privacy-related questions, contact:
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:eyo.app.support@gmail.com">eyo.app.support@gmail.com</a>
+      </p>
+
+      <p>
+        <strong>Support page:</strong>
+        <a href="https://eyogroup.github.io/EYO/support.html">
+          https://eyogroup.github.io/EYO/support.html
+        </a>
+      </p>
+
+      <p>
+        <a href="index.html">Back to home</a>
+      </p>
+    </div>
+
+    <footer>
+      © 2026 EYO. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
